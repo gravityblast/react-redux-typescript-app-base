@@ -5,7 +5,8 @@ import {
   shallowEqual,
   useSelector,
 } from 'react-redux';
-/* import "../styles/Layout.scss"; */
+import "../styles/reset.scss";
+import "../styles/layout.scss";
 
 export default function(ownProps: any) {
   const props = useSelector((state: RootState) => {
